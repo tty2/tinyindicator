@@ -1,0 +1,28 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "tty2@suvsib.me",
+                "Name": "Roman Suvorov"
+            }
+        ],
+        "Category": "Windows and Desktops",
+        "Description": "Tiny desktop indicator",
+        "EnabledByDefault": true,
+        "Icon": "preferences-desktop-virtual",
+        "Id": "org.kde.plasma.tinyindicator",
+        "License": "GPL-3.0+",
+        "Name": "Tiny Indicator",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.virtualdesktops"
+    ]
+}
